@@ -1,0 +1,658 @@
+{
+    "title": "Project1",
+    "terms": {
+        "basic": [
+            "Level",
+            "Lv",
+            "HP",
+            "HP",
+            "MP",
+            "MP",
+            "TP",
+            "TP",
+            "EXP",
+            "EXP"
+        ],
+        "commands": [
+            "Fight",
+            "Escape",
+            "Attack",
+            "Guard",
+            "Item",
+            "Skill",
+            "Equip",
+            "Status",
+            "Formation",
+            "Save",
+            "Game End",
+            "Options",
+            "Weapon",
+            "Armor",
+            "Key Item",
+            "Equip",
+            "Optimize",
+            "Clear",
+            "New Game",
+            "Continue",
+            null,
+            "To Title",
+            "Cancel",
+            null,
+            "Buy",
+            "Sell"
+        ],
+        "params": [
+            "Max HP",
+            "Max MP",
+            "Attack",
+            "Defense",
+            "M.Attack",
+            "M.Defense",
+            "Agility",
+            "Luck",
+            "Hit",
+            "Evasion"
+        ],
+        "messages": {
+            "actionFailure": "There was no effect on %1!",
+            "actorDamage": "%1 took %2 damage!",
+            "actorDrain": "%1 was drained of %2 %3!",
+            "actorGain": "%1 gained %2 %3!",
+            "actorLoss": "%1 lost %2 %3!",
+            "actorNoDamage": "%1 took no damage!",
+            "actorNoHit": "Miss! %1 took no damage!",
+            "actorRecovery": "%1 recovered %2 %3!",
+            "alwaysDash": "Always Dash",
+            "bgmVolume": "BGM Volume",
+            "bgsVolume": "BGS Volume",
+            "buffAdd": "%1's %2 went up!",
+            "buffRemove": "%1's %2 returned to normal!",
+            "commandRemember": "Command Remember",
+            "counterAttack": "%1 counterattacked!",
+            "criticalToActor": "A painful blow!!",
+            "criticalToEnemy": "An excellent hit!!",
+            "debuffAdd": "%1's %2 went down!",
+            "defeat": "%1 was defeated.",
+            "emerge": "%1 emerged!",
+            "enemyDamage": "%1 took %2 damage!",
+            "enemyDrain": "%1 was drained of %2 %3!",
+            "enemyGain": "%1 gained %2 %3!",
+            "enemyLoss": "%1 lost %2 %3!",
+            "enemyNoDamage": "%1 took no damage!",
+            "enemyNoHit": "Miss! %1 took no damage!",
+            "enemyRecovery": "%1 recovered %2 %3!",
+            "escapeFailure": "However, it was unable to escape!",
+            "escapeStart": "%1 has started to escape!",
+            "evasion": "%1 evaded the attack!",
+            "expNext": "To Next %1",
+            "expTotal": "Current %1",
+            "file": "File",
+            "levelUp": "%1 is now %2 %3!",
+            "loadMessage": "Load which file?",
+            "magicEvasion": "%1 nullified the magic!",
+            "magicReflection": "%1 reflected the magic!",
+            "meVolume": "ME Volume",
+            "obtainExp": "%1 %2 received!",
+            "obtainGold": "%1\\G found!",
+            "obtainItem": "%1 found!",
+            "obtainSkill": "%1 learned!",
+            "partyName": "%1's Party",
+            "possession": "Possession",
+            "preemptive": "%1 got the upper hand!",
+            "saveMessage": "Save to which file?",
+            "seVolume": "SE Volume",
+            "substitute": "%1 protected %2!",
+            "surprise": "%1 was surprised!",
+            "useItem": "%1 uses %2!",
+            "victory": "%1 was victorious!"
+        }
+    },
+    "equip_types": [
+        "",
+        "Weapon",
+        "Shield",
+        "Head",
+        "Body",
+        "Accessory"
+    ],
+    "skill_types": [
+        "",
+        "Magic",
+        "Special"
+    ],
+    "weapon_types": [
+        "",
+        "Dagger",
+        "Sword",
+        "Flail",
+        "Axe",
+        "Whip",
+        "Cane",
+        "Bow",
+        "Crossbow",
+        "Gun",
+        "Claw",
+        "Glove",
+        "Spear"
+    ],
+    "actors": [
+        {
+            "name": "Harold",
+            "nickname": "First Actor",
+            "profile": "The main actor."
+        },
+        {
+            "name": "Therese",
+            "nickname": "Second Actor",
+            "profile": "The secondary actor."
+        },
+        {
+            "name": "Marsha",
+            "nickname": "Third Actor",
+            "profile": "The third actor"
+        },
+        {
+            "name": "Lucius",
+            "nickname": "Fourth Actor",
+            "profile": "The fourth actor."
+        }
+    ],
+    "armors": [
+        {
+            "name": "Shield",
+            "description": "A shield."
+        },
+        {
+            "name": "Hat",
+            "description": "A hat."
+        },
+        {
+            "name": "Cloth",
+            "description": "A cloth."
+        },
+        {
+            "name": "Ring",
+            "description": "A ring."
+        }
+    ],
+    "classes": [
+        "Hero",
+        "Warrior",
+        "Mage",
+        "Priest"
+    ],
+    "common_events": [
+        {
+            "messages": [
+                {
+                    "index": 1,
+                    "parameters": [
+                        "This is a text in the #1 Common Event."
+                    ]
+                },
+                {
+                    "index": 2,
+                    "parameters": [
+                        [
+                            "Yes",
+                            "No"
+                        ],
+                        1,
+                        0,
+                        2,
+                        0
+                    ]
+                },
+                {
+                    "index": 5,
+                    "parameters": [
+                        "Scrollllllllllllll"
+                    ]
+                }
+            ]
+        },
+        {
+            "messages": [
+                {
+                    "index": 1,
+                    "parameters": [
+                        "This is a text in the #2 Common Event."
+                    ]
+                },
+                {
+                    "index": 2,
+                    "parameters": [
+                        [
+                            "Yes 2",
+                            "No 2"
+                        ],
+                        1,
+                        0,
+                        2,
+                        0
+                    ]
+                },
+                {
+                    "index": 5,
+                    "parameters": [
+                        "Scrollllllllllllll 222222222"
+                    ]
+                }
+            ]
+        },
+        {
+            "messages": []
+        },
+        {
+            "messages": []
+        }
+    ],
+    "enemies": [
+        "Bat",
+        "Slime",
+        "Orc",
+        "Minotaur"
+    ],
+    "items": [
+        {
+            "name": "Potion",
+            "description": "Heals 500 HP."
+        },
+        {
+            "name": "Magic Water",
+            "description": "Recovers 200 MP."
+        },
+        {
+            "name": "Dispel Herb",
+            "description": "Remove all states."
+        },
+        {
+            "name": "Stimulant",
+            "description": "Revive an actor."
+        }
+    ],
+    "skills": [
+        {
+            "name": "Attack",
+            "description": "Attack!",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Guard",
+            "description": "Guard.",
+            "message1": " guards.",
+            "message2": ""
+        },
+        {
+            "name": "Dual Attack",
+            "description": "Dual Attack.",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Double Attack",
+            "description": "Double Attack.",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Triple Attack",
+            "description": "Triple Attack.",
+            "message1": " attacks!",
+            "message2": ""
+        },
+        {
+            "name": "Escape",
+            "description": "Escape.",
+            "message1": " flees.",
+            "message2": ""
+        },
+        {
+            "name": "Wait",
+            "description": "Wait.",
+            "message1": " waits.",
+            "message2": ""
+        },
+        {
+            "name": "Heal",
+            "description": "Heal.",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Fire",
+            "description": "Fire.",
+            "message1": " casts %1!",
+            "message2": ""
+        },
+        {
+            "name": "Spark",
+            "description": "Spark.",
+            "message1": " casts %1!",
+            "message2": ""
+        }
+    ],
+    "states": [
+        {
+            "name": "Knockout",
+            "message1": " has fallen!",
+            "message2": " is slain!",
+            "message3": "",
+            "message4": " revives!"
+        },
+        {
+            "name": "Guard",
+            "description": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "Immortal",
+            "description": "",
+            "message1": "",
+            "message2": "",
+            "message3": "",
+            "message4": ""
+        },
+        {
+            "name": "Poison",
+            "message1": " is poisoned!",
+            "message2": " is poisoned!",
+            "message3": "",
+            "message4": " is no longer poisoned!"
+        },
+        {
+            "name": "Blind",
+            "message1": " is blinded!",
+            "message2": " is blinded!",
+            "message3": "",
+            "message4": " is no longer blinded!"
+        },
+        {
+            "name": "Silence",
+            "message1": " is silenced!",
+            "message2": " is silenced!",
+            "message3": "",
+            "message4": " is no longer silenced!"
+        },
+        {
+            "name": "Rage",
+            "message1": " is enraged!",
+            "message2": " is enraged!",
+            "message3": "",
+            "message4": " is no longer enraged!"
+        },
+        {
+            "name": "Confusion",
+            "message1": " is confused!",
+            "message2": " is confused!",
+            "message3": "",
+            "message4": " is no longer confused!"
+        },
+        {
+            "name": "Fascination",
+            "message1": " is fascinated!",
+            "message2": " is fascinated!",
+            "message3": "",
+            "message4": " is no longer fascinated!"
+        },
+        {
+            "name": "Sleep",
+            "message1": " falls asleep!",
+            "message2": " falls asleep!",
+            "message3": " is sleeping.",
+            "message4": " wakes up!"
+        }
+    ],
+    "troops": [
+        {
+            "name": "Bat*2",
+            "pages": [
+                [
+                    {
+                        "index": 1,
+                        "parameters": [
+                            "Hey, this is the text in the #1 page of the troop."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "index": 1,
+                        "parameters": [
+                            "Hey, this is the text in the #2 page of the troop."
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Slime*2",
+            "pages": [
+                [
+                    {
+                        "index": 1,
+                        "parameters": [
+                            "Hey, this is the text in the #1 page of the troop."
+                        ]
+                    }
+                ],
+                [
+                    {
+                        "index": 1,
+                        "parameters": [
+                            "Hey, this is the text in the #2 page of the troop."
+                        ]
+                    }
+                ]
+            ]
+        },
+        {
+            "name": "Orc",
+            "pages": [
+                []
+            ]
+        },
+        {
+            "name": "Minotaur",
+            "pages": [
+                []
+            ]
+        }
+    ],
+    "weapons": [
+        {
+            "name": "Sword",
+            "description": "A sword."
+        },
+        {
+            "name": "Axe",
+            "description": "An axe."
+        },
+        {
+            "name": "Cane",
+            "description": "A cane."
+        },
+        {
+            "name": "Bow",
+            "description": "A bow."
+        }
+    ],
+    "map_data": {
+        "MAP001": [
+            {
+                "event": 1,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "This is the text in the #1 page of Event #1."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 1,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Waaaaaaaaaaaaaaa"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "This is the text in the #2 page of Event #1."
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes 2",
+                        "No 2"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 1,
+                "page": 1,
+                "index": 5,
+                "parameters": [
+                    "Yaaaaaaaaaaaaaaaaaa"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 2,
+                "index": 1,
+                "parameters": [
+                    "Wanna battle in Event #1?"
+                ]
+            },
+            {
+                "event": 1,
+                "page": 2,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 1,
+                "parameters": [
+                    "This is the text in the #1 page of Event #2."
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes 2 1",
+                        "No 2 1"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 2,
+                "page": 0,
+                "index": 5,
+                "parameters": [
+                    "Waaaaaaaaaaaaaaa 2 1"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 1,
+                "parameters": [
+                    "This is the text in the #2 page of Event #2."
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes 2 2",
+                        "No 2 2"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            },
+            {
+                "event": 2,
+                "page": 1,
+                "index": 5,
+                "parameters": [
+                    "Yaaaaaaaaaaaaaaaaaa 2 2"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 2,
+                "index": 1,
+                "parameters": [
+                    "Wanna battle in Event #2?"
+                ]
+            },
+            {
+                "event": 2,
+                "page": 2,
+                "index": 2,
+                "parameters": [
+                    [
+                        "Yes",
+                        "No"
+                    ],
+                    1,
+                    0,
+                    2,
+                    0
+                ]
+            }
+        ]
+    }
+}
