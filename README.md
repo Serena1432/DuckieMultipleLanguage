@@ -1,3 +1,22 @@
+## 🔒 ARCHIVED / PAUSED
+
+This plugin has been archived since July 2022.
+
+**Why?**
+
+I created this plugin during a difficult time in my life, when my parents were much stricter than they are now, and I was also dealing with the emotional fallout of losing someone I deeply loved and drew inspiration from. So eventually, I lost the motivation to continue working on it.
+
+The plugin remains incomplete and may never be finished. However, I've recently discovered that some people are **actually** using it in their game development, which was kind of unexpected to me. Maybe, if I ever regain interest or inspiration, I’ll return to it someday. But as of now, it has been paused - or rather, **archived** - for over three years.
+
+That said, thank you sincerely for your interest; it truly means a lot to me.
+
+Also, I just realized I hadn’t included a license before, so I’ve now added an **MIT License**. That means you're completely free to use, modify, and distribute this plugin for any purpose - personal or commercial!
+
+With gratitude,<br>
+**Serena1432**
+
+-----
+
 ```
 ============================================================================
  __  __       _ _   _ _                                              
